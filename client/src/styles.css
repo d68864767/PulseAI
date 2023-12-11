@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Dashboard styles */
+.dashboard {
+  padding: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.anomaly-list {
+  margin-top: 20px;
+}
+
+.anomaly-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anomaly-list p {
+  margin: 0;
+}
+
+.trend-chart {
+  margin-top: 20px;
+}
+
+/* Button styles */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
